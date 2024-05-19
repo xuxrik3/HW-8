@@ -1,0 +1,65 @@
+.box {
+  display: flex;
+  gap: 20px;
+}
+
+.item1 {
+  width: 400px;
+  height: 300px;
+  background-color: red;
+}
+.item2 {
+  width: 400px;
+  height: 300px;
+  background-color: red;
+}
+.item3 {
+  width: 400px;
+  height: 300px;
+  background-color: red;
+}
+.item4 {
+  width: 400px;
+  height: 300px;
+  background-color:red;
+}
+.item5 {
+  width: 400px;
+  height: 300px;
+  background-color: red;
+}
+
+
+.item1:hover {  
+  background-color: purple;
+}
+
+.item2:active{
+ background-color: gray;
+}
+.item3:hover{
+    background-color: darkcyan;
+}
+.item4:hover{
+    background-color: rgb(159, 113, 44);
+}
+.item5:hover{
+    background: lime;
+  }
+
+.item1:first-child{
+  color:gold ;
+}
+.item2:nth-child(even){
+  color: mediumaquamarine;
+}
+.item3 ul li:nth-child(-n+2){
+color: salmon;
+}
+.item4 ul li:last-of-type{
+color: violet;
+font-weight: 400;
+}
+.item5 ul li:nth-child(2n){
+  color: yellowgreen;
+}

@@ -1,0 +1,15 @@
+ #greycol{
+    color: gray;
+ }
+ h3:nth-child(-n+1) {
+   color:pink;
+ }
+p:only-child{
+    color: red;
+}
+p:nth-child(n+3) {
+    color: green;
+}
+.yellow:nth-child(n+4) {
+    color: yellow;
+ }
